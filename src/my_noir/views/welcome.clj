@@ -12,4 +12,4 @@
 
 (defpage "/welcome" []
          (common/layout
-           [:p "Welcome to my-noir. " (Date.)]))
+           [:p "Welcome to my-noir. " "The time now is: " (Date.)]))
